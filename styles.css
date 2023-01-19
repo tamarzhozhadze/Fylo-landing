@@ -1,0 +1,412 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans&family=Open+Sans:wght@400;700&family=Raleway:wght@400;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Nunito Sans', sans-serif, 'Open Sans', 'Raleway';
+    background-color: #F2F2F2;
+    /* padding-inline: 26px; */
+
+}
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 103px;
+}
+.header-logo{
+    margin-left: 24px;
+    margin-top: 24px;
+    width:65px;
+}
+.header-note-style{
+    display: flex;
+    justify-content:center;
+    gap:24px;
+    font-family: Raleway;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14px;
+    color: rgba(7, 4, 59, 1);
+    margin-right:24px;
+    margin-top: 29px;
+}
+.first-img{
+    width:304px;
+    
+    
+}
+.box-1{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    row-gap:  40px;
+    margin-bottom: 90px;
+    padding-inline: 26px;
+}
+
+.first-title-style{
+    font-family: Open Sans;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+    color: rgba(7, 4, 59, 1);
+    margin-bottom: 24px;
+    text-align: center;
+}
+.first-text-style{
+    font-family: Open Sans;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    text-align: center;
+    color: rgba(7, 4, 59, 1);
+    margin-bottom: 32px;
+}
+.button-box-1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap:16px;
+}
+.first-button{
+    font-family: Raleway;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 16px;
+    color: rgba(255, 255, 255, 1);
+    text-align: center;
+    background-color: rgba(47, 101, 248, 1);
+    padding: 12px 113px;
+    border: none;
+    width:304px;
+    
+    border-radius: 3px;
+}
+.first-button:hover{
+    background-color: rgba(108, 155, 255, 1);
+    cursor: pointer;
+}
+.enter-email{
+    font-family: Raleway;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14px;
+    
+    font-family: Raleway;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14px;
+    padding-left: 21px;
+    padding-top: 14px;
+    padding-bottom: 12px;
+
+    width:304px;
+    border-radius: 3pxs;
+
+}
+.second-text-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.box-2{
+    background-image: url(./images/bg-curve-mobile.svg);
+    padding-inline: 26px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.second-img{
+    width:320px;
+}
+.second-title-style{
+    font-family: Raleway;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    color: rgba(7, 4, 59, 1);
+    margin-bottom: 24px;
+    margin-top: 87px;
+    text-align: center;
+}
+.second-text-style{
+    margin-bottom: 16px;
+    font-family: Open Sans;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;;
+    text-align: center;
+    color: rgba(97, 95, 126, 1);
+    
+}
+.third-text-style{
+    font-family: Open Sans;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    text-align: center;
+    color: rgba(97, 95, 126, 1);
+    margin-bottom: 36px;
+}
+.link-box{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    gap:11px;
+    margin-bottom:6px;
+}
+.link-style{
+    font-family: Open Sans;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16px;
+    color: rgba(61, 160, 143, 1);
+}
+.link-style:hover{
+    color: rgba(113, 223, 204, 1);
+    cursor: pointer;
+}
+.icon-arrow:hover  a  svg use{
+    fill: rgba(113, 223, 204, 1);
+}
+.line:hover{
+    background-color: rgba(113, 223, 204, 1);
+}
+.line{
+    margin-bottom: 40px;
+    width: 130px;
+    background-color:rgba(61, 160, 143, 1);  
+    height: 2px;
+}
+.ceo-box{
+    width:280px;
+    background-color: #FFFFFF;
+    box-shadow: 0px 0px 8px 4px rgba(56, 56, 56, 0.05);
+    text-align: start;
+    align-items: flex-start;
+    padding: 19px 13px 19px 26px;
+    margin-bottom: 82px;
+}
+.brackets{
+    font-family: Nunito Sans;
+    font-size: 35px;
+    font-weight: 400;
+    line-height: 53px;
+    color: rgba(7, 4, 59, 1);
+    height: 35px;
+}
+.ceo-text{
+    font-family: Open Sans;
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 18px;
+    color:rgba(7, 4, 59, 1);
+    margin-bottom: 12.52px;
+}
+.avatar-box{
+    display: flex;
+    justify-content: space-between;
+    width: 104px;
+    
+}
+.avatar{
+    width:24px;
+    
+}
+.name{
+    font-family: Open Sans;
+    font-size: 9px;
+    font-weight: 700;
+    line-height: 12px;
+    color: rgba(7, 4, 59, 1);
+    margin-bottom: 1.8px;
+}
+.job{
+    font-family: Open Sans;
+    font-size: 6px;
+    font-weight: 400;
+    line-height: 12px;
+    color: rgba(7, 4, 59, 1);
+}
+.footer-upper-part{
+    background-color: rgba(87, 89, 136, 1);
+    padding: 54px 47px 71px 54px;
+}
+.footer-title{
+    font-family: Raleway;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 24px;
+    color: rgba(255, 255, 255, 1);
+    margin-bottom: 17px;
+    text-align: center;
+
+}
+.footer-text{
+    font-family: Open Sans;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0px;
+    text-align: center;
+    color: rgba(255, 255, 255, 1);
+    margin-bottom: 24px;
+}
+.button-box-2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap:8px;
+}.email-example{
+    font-family: Raleway;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14px;
+    
+    font-family: Raleway;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14px;
+    padding-left: 21px;
+    padding-top: 14px;
+    padding-bottom: 12px;
+
+    width:240px;
+    border-radius: 3pxs;
+
+}
+.second-button{
+    font-family: Raleway;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 16px;
+    color: rgba(255, 255, 255, 1);
+    text-align: center;
+    background-color: rgba(47, 101, 248, 1);
+    padding-top: 11px;
+    padding-bottom: 11px;
+    border: none;
+    width:240px;
+    border-radius: 3px;
+}
+.second-button:hover{
+    background-color: rgba(108, 155, 255, 1);
+    cursor: pointer;
+}
+.footer-down-part{
+    padding-top:54px;
+    padding-bottom: 47px;
+    background-color:  rgba(7, 4, 59, 1);
+    
+}
+.footer-one-box{
+    margin-bottom: 32px;
+    margin-left: 42px;
+}
+.footer-logo{
+    margin-bottom: 32px;
+}
+.footer-mobile-box{
+    display: flex;
+    justify-content: cener;
+    flex-direction: row;
+    gap:19px;
+    margin-bottom: 16px;
+}
+.footer-mobile-style{
+    font-family: Open Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: rgba(255, 255, 255, 1);
+}
+.footer-mobile-img{
+    width:18px;
+}
+.footer-email-img-box{
+    display: flex;
+    justify-content: cener;
+    flex-direction: row;
+    gap:19px;
+}
+.footer-email-style{
+    font-family: Open Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: rgba(255, 255, 255, 1);
+}
+.footer-email-img{
+    width:20px;
+    height: 16px;
+}
+
+.footer-two-box{
+    margin-bottom: 32px;
+    margin-left: 42px;
+    
+}
+.footer-two-box-styles{
+    font-family: Open Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    color:rgba(255, 255, 255, 1);
+    
+}
+.footer-three-box{
+    margin-left: 42px;
+}
+.footer-three-box:hover{
+    color: rgba(108, 155, 255, 1);
+    
+}
+.gap{
+    margin-bottom: 16px;
+}
+.footer-four-box{
+    display: flex;
+    justify-content: center;
+    margin-top: 35px;
+    
+}
+.icon-facebook-instagram-size{
+    display: flex;
+    justify-content: center;
+    align-items:flex-end;
+    width:35px;  
+    height: 35px;
+    border: 1px solid white;
+    border-radius: 60px;
+}
+.icon-size-twitter{
+    display: flex;
+    justify-content: center;
+    align-items:flex-end;
+    border: 1px solid white;
+    border-radius: 60px;
+    width:35px;
+    height: 35px;
+    margin-left: 19px;
+    margin-right: 15px;
+}
+
+.icon-hover:hover{
+    border-color:rgba(108, 155, 255, 1);
+    
+}
+.icon-hover:hover a svg path{
+    fill:rgba(108, 155, 255, 1);
+    cursor: pointer;
+}
+.footer-two-box-styles:hover span{
+    color:rgba(108, 155, 255, 1);
+    
+}
+
